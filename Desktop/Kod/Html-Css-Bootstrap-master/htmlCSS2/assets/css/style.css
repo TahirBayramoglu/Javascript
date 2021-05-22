@@ -1,0 +1,38 @@
+*{
+    text-align: center;
+}
+h1{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+}
+  /* ilki kalinlik 
+    ikincisi etraftaki cizginin turu 
+    ucuncusu cercevenin rengi 
+    solid|double|dashed */
+.tablo{
+    border: 3px solid grey;
+    border-collapse: collapse;
+    width: 300px;
+    /* width: 100%; yuzdelik dilim sayfaya göre hesaplanir */
+     margin-left: auto;  /*Sol ve sagdan otomatik bosluk koyarak nesneler
+                           ortaya hizalanabilir. */
+    margin-right: auto;
+}
+/* Birden fazla atribute e ayni stillendirme yapilacaksa
+ virgul ile ayrilarak yazilabilir. */
+th,
+td{
+    border: 4px solid grey;
+}
+
+th{
+    background-color: yellowgreen;
+}
+
+tr:hover{
+    background-color: silver;
+}
+tr:nth-child(even){
+    background-color: teal;
+}

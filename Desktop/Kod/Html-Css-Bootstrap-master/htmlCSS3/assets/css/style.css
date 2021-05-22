@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+*{
+    text-align: center;
+    margin: 0; /* Bastan tum margin leri sifirlamak icin*/
+    box-sizing: border-box;
+    /*
+    box sizing CSS de kullanilan kutu modelini secmek icin kullanilir. 
+    Genelde border-box modeli tercih edilir.
+    */
+}
+
+.input {
+    margin-bottom: 20px;
+    margin-left: 5px;
+    width: 200px;
+    height: 25px;
+}
+
+body{
+    background-image: linear-gradient(rgb(121, 182, 121), rgb(94, 143, 206));
+    font-family: 'Nunito', sans-serif;}
+
+.label {
+    margin-right: 10px;
+    display: block; /* inline olan bir eleman
+                    blok hale getirilebilir.*/
+
+
+}
+
+.btn{
+    font-size: 16px;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    border: 2px solid brown;
+    border-radius: 20px;
+    background:gold;
+    cursor: pointer;
+}
+
+.btn:hover{
+
+    background: gray;
+
+}
+
+.far,
+.fas{
+    color:mediumvioletred
+}
+
+textarea{
+    width: 200px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    border-radius: 10px;
+}
